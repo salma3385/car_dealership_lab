@@ -1,4 +1,5 @@
 const {Car} = require('./car');
+const {Dealership} = require('./dealership');
 
 let car;
 
@@ -14,3 +15,4 @@ describe('cobstructor test', () => {
         expect(car1.engine).toBe("Petrol");
     })
 })
+
