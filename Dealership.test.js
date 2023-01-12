@@ -1,5 +1,5 @@
 const {Dealership} = require('./dealership');
-const {Car} = require('./car');
+const {Car} = require('./ca r');
 
 beforeEach(() =>{
     dealership = new Dealership();
