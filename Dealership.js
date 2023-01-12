@@ -30,11 +30,11 @@ Dealership.prototype.givenManufacturer = function (){
     return this.stock.filter(Stock => Stock.manufacturer === name);
 }
 
-// Dealership.prototype.totalValue = function () {
-//     return this.price.reduce(accumulator, price) => {
+ //Dealership.prototype.totalValue = function () {
+    //return this.price.reduce(accumulator, price) => {
 
-//     }
-// }
+    // }
+ //}
 
 
 

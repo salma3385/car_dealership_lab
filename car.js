@@ -13,7 +13,7 @@ const Car = function(manufacturer, price,engine){
   const car5 = new Car("Kia","25000","Petrol");
   const car6 = new Car("Audi","25000","Petrol");
 
-  let array = [car1, car2, car3, car4, car5, car6]
+  let array  = [car1, car2, car3, car4, car5, car6]
 
 module.exports = {Car}
 
