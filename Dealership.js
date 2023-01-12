@@ -27,7 +27,7 @@ Dealership.prototype.addStock = function () {
 };
 
 Dealership.prototype.givenManufacturer = function (){
-    return this.stock.filter(Stock => Stock.manufacturer === name);
+    return this.stock.filter(manufacturer => Stock.manufacturer === manufacturer);
 }
 
  //Dealership.prototype.totalValue = function () {
